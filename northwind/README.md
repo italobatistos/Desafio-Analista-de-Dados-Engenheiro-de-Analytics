@@ -44,9 +44,8 @@ Perguntas de Negócio:
 - Quais os 5 melhores países em valor total negociado por produto, data de venda, funcionario?
 - Qual o número de pedidos, quantidade comprada, valor total negociado por mês e ano?
 Formato de Entrega:
-- Google Data Studio: Link do painel.
+- Relatório: PDF
 - PowerBI: Arquivo do dashboard.
-- Outras ferramentas: Painel interativo com acesso permitido.
 
 ## Ferramentas Utilizadas
 - DBT: Ferramenta de transformação de dados.
