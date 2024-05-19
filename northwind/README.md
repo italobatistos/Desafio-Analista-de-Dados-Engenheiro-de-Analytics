@@ -13,17 +13,22 @@ A Northwind Traders utiliza um banco de dados transacional PostgreSQL, com dados
 ## Entrega
 
 ### 1. Diagrama Conceitual do Data Warehouse
-Formato: PDF
+![diagrama_northwind](https://github.com/italobatistos/Desafio-Analista-de-Dados-Engenheiro-de-Analytics/assets/135757227/141b1e23-8255-43ef-be97-9518bf2834f1)
+
 Descrição: Criação do modelo conceitual com tabelas de fatos e dimensões necessárias para responder às perguntas de negócio. O diagrama mostra as tabelas fonte utilizadas para criar cada dimensão e a tabela fato.
-Ferramenta Sugerida: draw.io
+
+Ferramenta Utilizada: draw.io
 
 ### 2. Configuração do Data Warehouse e dbt
 Data Warehouse: Google BigQuery
+
 Ferramenta de Transformação: dbt
+
 Descrição: Configuração de um data warehouse na nuvem e do dbt para transformação de dados.
 
 ### 3. Transformação de Dados
 Ferramenta: dbt
+
 Tarefas:
 - Documentação das tabelas e colunas nos marts.
 - Testes de sources.
@@ -33,6 +38,7 @@ Tarefas:
 
 ### 4. Painéis de BI
 Ferramenta: PowerBI
+
 Perguntas de Negócio:
 - Quais os produtos com maior ticket médio por mês, e país?
 - Quais os 5 melhores países em valor total negociado por produto, data de venda, funcionario?
@@ -44,7 +50,6 @@ Formato de Entrega:
 
 ## Ferramentas Utilizadas
 - DBT: Ferramenta de transformação de dados.
-- Google BigQuery: Data warehouse em nuvem.
 - PowerBI: Ferramenta de BI.
 - Draw.IO: Ferramenta de desenho e criação de diagramas.
 
