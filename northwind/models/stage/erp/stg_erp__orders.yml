@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: stg_erp__orders
+    description: This model represents the staging of orders.
+    columns:
+      - name: orders_id
+        description: This column represents the order id.
+
+      - name: orders_employee_id
+        description: The employee id associated with the order.
+
+      - name: orders_customer_id
+        description: The customer id associated with the order.
+
+      - name: orders_ship_via
+        description: The shipper id used for the order.
+
+      - name: orders_date
+        description: The date when the order was placed.
+
+      - name: orders_freight
+        description: The freight cost of the order.
+
+      - name: orders_ship_name
+        description: The name of the recipient of the order.
+
+      - name: orders_ship_address
+        description: The shipping address of the order.
+
+      - name: orders_ship_pcode
+        description: The postal code of the shipping address.
+
+      - name: orders_ship_city
+        description: The city of the shipping address.
+
+      - name: orders_ship_region
+        description: The region of the shipping address.
+
+      - name: orders_ship_country
+        description: The country of the shipping address.
+
+      - name: orders_shipped_date
+        description: The date when the order was shipped.
+
+      - name: orders_required_date
+        description: The date when the order is required.

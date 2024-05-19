@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: dim_customer
+    description: This model represents the customer data dimension table.
+    columns:
+      - name: sk_customer
+        description: Surrogate key for customers table.
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        description: The identifier for each customer.
+        tests:
+          - not_null
+
+      - name: customer_conname
+        description: The contact name of each customer.
+        tests:
+          - not_null
+
+      - name: customer_comname
+        description: The company name of each customer.
+        tests:
+          - not_null
+
+      - name: customer_address
+        description: The address of each customer.
+        tests:
+          - not_null
+
+      - name: customer_pcode
+        description: The postal code of each customer.
+
+      - name: customer_city
+        description: The city of each customer.
+        tests:
+          - not_null
+
+      - name: customer_region
+        description: The region of each customer.
+
+      - name: customer_country
+        description: The country of each customer.
+        tests:
+          - not_null
+

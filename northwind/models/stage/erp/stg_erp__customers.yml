@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: stg_erp__customers
+    description: This model represents the staging of customers.
+    columns:
+      - name: customer_id
+        description: The unique identifier for each customer.
+
+      - name: customer_conname
+        description: The contact name of the customer.
+
+      - name: customer_comname
+        description: The company name of the customer.
+
+      - name: customer_address
+        description: The address of the customer.
+
+      - name: customer_pcode
+        description: The postal code of the customer.
+
+      - name: customer_city
+        description: The city of the customer.
+
+      - name: customer_region
+        description: The region of the customer.
+
+      - name: customer_country
+        description: The country of the customer.

@@ -1,0 +1,163 @@
+version: 2
+
+models:
+  - name: fact_sales
+    description: This model represents the fact table for sales.
+    columns:
+      - name: sk_sales
+        description: Surrogate key for the sales fact table.
+        tests:
+          - unique
+          - not_null
+          
+      - name: orders_id
+        description: The identifier for each order.
+        tests:
+          - not_null
+          
+      - name: fk_customers
+        description: Foreign key referencing the customer dimension table.
+        tests:
+          - not_null
+          
+      - name: fk_employees
+        description: Foreign key referencing the employee dimension table.
+        tests:
+          - not_null
+          
+      - name: fk_products
+        description: Foreign key referencing the product dimension table.
+        tests:
+          - not_null
+          
+      - name: orders_ship_via
+        description: The shipping method for each order.
+        tests:
+          - not_null
+          
+      - name: details_discount
+        description: The discount applied to each order detail.
+        tests:
+          - not_null
+          
+      - name: details_unt_price
+        description: The unit price for each order detail.
+        tests:
+          - not_null
+          
+      - name: details_quantity
+        description: The quantity ordered for each order detail.
+        tests:
+          - not_null
+          
+      - name: orders_freight
+        description: The freight cost for each order.
+        tests:
+          - not_null
+          
+      - name: orders_date
+        description: The date of each order.
+        tests:
+          - not_null
+          
+      - name: orders_shipped_date
+        description: The shipped date of each order.
+        tests:
+          - not_null
+          
+      - name: orders_required_date
+        description: The required date of each order.
+        tests:
+          - not_null
+          
+      - name: shippers_name
+        description: The name of the shipper.
+        tests:
+          - not_null
+          
+      - name: orders_ship_name
+        description: The shipping name for each order.
+        tests:
+          - not_null
+          
+      - name: orders_ship_address
+        description: The shipping address for each order.
+        tests:
+          - not_null
+          
+      - name: orders_ship_pcode
+        description: The shipping postal code for each order.
+        tests:
+          - not_null
+          
+      - name: orders_ship_city
+        description: The shipping city for each order.
+        tests:
+          - not_null
+          
+      - name: orders_ship_region
+        description: The shipping region for each order.
+        tests:
+          - not_null
+          
+      - name: orders_ship_country
+        description: The shipping country for each order.
+        tests:
+          - not_null
+          
+      - name: customer_conname
+        description: The contact name of the customer.
+        tests:
+          - not_null
+          
+      - name: employee_full_name
+        description: The full name of the employee.
+        tests:
+          - not_null
+          
+      - name: manage_name
+        description: The full name of the employee's manager.
+        tests:
+          - not_null
+          
+      - name: product_name
+        description: The name of the product.
+        tests:
+          - not_null
+          
+      - name: category_name
+        description: The name of the product category.
+        tests:
+          - not_null
+          
+      - name: supplier_conname
+        description: The contact name of the product supplier.
+        tests:
+          - not_null
+          
+      - name: is_discontinued
+        description: Indicates if the product is discontinued.
+        tests:
+          - not_null
+          
+      - name: sales_total
+        description: The total sales amount for each order.
+        tests:
+          - not_null
+          
+      - name: sales_liquid
+        description: The liquid sales amount for each order.
+        tests:
+          - not_null
+          
+      - name: orders_freight_partition
+        description: The partitioned freight cost for each order.
+        tests:
+          - not_null
+          
+      - name: is_discount
+        description: Indicates if a discount was applied to the order detail.
+        tests:
+          - not_null
+          
+

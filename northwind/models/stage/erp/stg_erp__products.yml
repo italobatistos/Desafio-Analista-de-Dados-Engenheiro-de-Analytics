@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: stg_erp__products
+    description: This model represents the staging of products.
+    columns:
+      - name: product_id
+        description: This column represents the product id.
+
+      - name: product_supplier_id
+        description: The supplier id of the product.
+
+      - name: product_category_id
+        description: The category id of the product.
+
+      - name: product_name
+        description: The name of the product.
+
+      - name: product_qnt_per_unit
+        description: The quantity per unit of the product.
+
+      - name: product_unit_price
+        description: The unit price of the product.
+
+      - name: product_unt_in_stock
+        description: The units in stock of the product.
+
+      - name: product_unt_on_ord
+        description: The units on order of the product.
+
+      - name: product_reorder_lvl
+        description: The reorder level of the product.
+
+      - name: is_discontinued
+        description: Indicates whether the product is discontinued.

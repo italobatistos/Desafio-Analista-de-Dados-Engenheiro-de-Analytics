@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: dim_employees
+    description: This model represents the employee data dimension table.
+    columns:
+      - name: sk_employees
+        description: Surrogate key for employees table.
+        tests:
+          - unique
+          - not_null
+
+      - name: employee_id
+        description: The identifier for each employee.
+        tests:
+          - not_null
+
+      - name: employee_manage_id
+        description: The identifier for the manager of each employee.
+
+      - name: employee_full_name
+        description: The full name of each employee.
+        tests:
+          - not_null
+
+      - name: manage_name
+        description: The full name of the manager of each employee.
+
+      - name: employee_birth_date
+        description: The birth date of each employee.
+        tests:
+          - not_null
+
+      - name: employee_hire_date
+        description: The hire date of each employee.
+        tests:
+          - not_null
+
+      - name: employee_address
+        description: The address of each employee.
+        tests:
+          - not_null
+
+      - name: employee_city
+        description: The city of each employee.
+        tests:
+          - not_null
+
+      - name: employee_region
+        description: The region of each employee.
+
+      - name: employee_postal_code
+        description: The postal code of each employee.
+        tests:
+          - not_null
+
+      - name: employee_country
+        description: The country of each employee.
+        tests:
+          - not_null
+

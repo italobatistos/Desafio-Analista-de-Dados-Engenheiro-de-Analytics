@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_erp__categories
+    description: This model represents the staging of categories.
+    columns:
+      - name: category_id
+        description: The unique identifier for each category.
+
+      - name: category_name
+        description: The name of the category.
+
+      - name: description_category
+        description: The description of the category.

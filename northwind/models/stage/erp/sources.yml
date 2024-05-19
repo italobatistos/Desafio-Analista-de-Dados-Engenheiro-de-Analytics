@@ -1,0 +1,79 @@
+
+version: 2
+
+sources:
+  - name: erp
+    description: This model represents the source of Northwind.
+    schema: northwind_erp_northwind
+    tables: 
+
+      - name: employees
+        description: This table represents the employees.
+        columns:
+          - name: employee_id
+            description: Primary key of employee table.
+            tests:
+              - unique
+              - not_null
+
+      - name: orders
+        description: This table represents customer orders.
+        columns:
+          - name: order_id
+            description: Primary key of order table.
+            tests:
+              - unique
+              - not_null
+
+      - name: order_details
+        description: This table represents the details of each order.
+        columns:
+          - name: order_id
+            description: Primary key of the order_details table.
+            tests:
+              - not_null
+
+      - name: products
+        description: This table represents the products available for order.
+        columns:
+          - name: product_id
+            description: Primary key of the products table.
+            tests:
+              - unique
+              - not_null
+
+      - name: categories
+        description: This table represents the categories of products.
+        columns:
+          - name: category_id
+            description: Primary key of the categories table.
+            tests:
+              - unique
+              - not_null
+
+      - name: suppliers
+        description: This table represents the suppliers of products.
+        columns:
+          - name: supplier_id
+            description: Primary key of the suppliers table.
+            tests:
+              - unique
+              - not_null
+
+      - name: customers
+        description: This table represents the customers.
+        columns:
+          - name: customer_id
+            description: Primary key of the customers table.
+            tests:
+              - unique
+              - not_null
+
+      - name: shippers
+        description: This table represents the shippers name.
+        columns:
+          - name: shipper_id
+            description: Primary key of the shippers name table.
+            tests:
+              - unique
+              - not_null

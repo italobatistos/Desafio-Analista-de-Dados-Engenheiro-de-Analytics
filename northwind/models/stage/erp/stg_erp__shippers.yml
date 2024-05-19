@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_erp__shippers
+    description: This model represents the staging of shippers.
+    columns:
+      - name: shipper_id
+        description: This column represents the shipper id.
+
+      - name: shippers_name
+        description: The company name of the shipper.

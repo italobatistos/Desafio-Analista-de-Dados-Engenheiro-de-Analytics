@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_erp__order_details
+    description: This model represents the staging of order details.
+    columns:
+      - name: details_order_id
+        description: The order id associated with the order detail.
+
+      - name: details_product_id
+        description: The product id associated with the order detail.
+
+      - name: details_discount
+        description: The discount applied to the order detail.
+
+      - name: details_unt_price
+        description: The unit price of the product in the order detail.
+
+      - name: details_quantity
+        description: The quantity of the product in the order detail.

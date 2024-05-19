@@ -1,0 +1,105 @@
+version: 2
+
+models:
+  - name: dim_products
+    description: This model represents the product data dimension table.
+    columns:
+      - name: sk_products
+        description: Surrogate key for products table.
+        tests:
+          - unique
+          - not_null
+
+      - name: product_id
+        description: The identifier for each product.
+        tests:
+          - not_null
+
+      - name: product_supplier_id
+        description: The identifier for the supplier of each product.
+        tests:
+          - not_null
+
+      - name: product_category_id
+        description: The identifier for the category of each product.
+        tests:
+          - not_null
+
+      - name: product_name
+        description: The name of each product.
+        tests:
+          - not_null
+
+      - name: product_qnt_per_unit
+        description: The quantity per unit of each product.
+        tests:
+          - not_null
+
+      - name: product_unit_price
+        description: The unit price of each product.
+        tests:
+          - not_null
+
+      - name: product_unt_in_stock
+        description: The units in stock of each product.
+        tests:
+          - not_null
+
+      - name: product_unt_on_ord
+        description: The units on order of each product.
+        tests:
+          - not_null
+
+      - name: product_reorder_lvl
+        description: The reorder level of each product.
+        tests:
+          - not_null
+
+      - name: is_discontinued
+        description: Indicates whether the product is discontinued.
+        tests:
+          - not_null
+
+      - name: category_name
+        description: The name of the category of each product.
+        tests:
+          - not_null
+
+      - name: description_category
+        description: The description of the category of each product.
+        tests:
+          - not_null
+
+      - name: supplier_conname
+        description: The contact name of the supplier of each product.
+        tests:
+          - not_null
+
+      - name: supplier_comname
+        description: The company name of the supplier of each product.
+        tests:
+          - not_null
+
+      - name: supplier_address
+        description: The address of the supplier of each product.
+        tests:
+          - not_null
+
+      - name: supplier_pcode
+        description: The postal code of the supplier of each product.
+        tests:
+          - not_null
+
+      - name: supplier_city
+        description: The city of the supplier of each product.
+        tests:
+          - not_null
+
+      - name: supplier_region
+        description: The region of the supplier of each product.
+
+      - name: supplier_country
+        description: The country of the supplier of each product.
+        tests:
+          - not_null
+
