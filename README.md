@@ -44,7 +44,8 @@ Perguntas de Negócio:
 - Qual o número de pedidos, quantidade comprada, valor total negociado por mês e ano?
 
 Formato de Entrega:
-- Relatório: PDF
+- Relatório: [Relatório de Análise de Indicadores da Northwind.pdf](https://github.com/italobatistos/Desafio-Analista-de-Dados-Engenheiro-de-Analytics/files/15378873/Relatorio.de.Analise.de.Indicadores.da.Northwind.pdf)
+
 - PowerBI: Arquivo do dashboard.
 
 ## Ferramentas Utilizadas
