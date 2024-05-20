@@ -2,7 +2,7 @@
 
 
 ## Introdução
-Este projeto foi desenvolvido como parte do desafio Analista de Dados/Engenheiro de Analytics pela Indicium. O objetivo da certificação é avaliar competências práticas em Engenharia de Analytics, seguindo a metodologia do Modern Analytics Stack. Este projeto abrange a construção de uma plataforma de analytics moderna, modelagem dimensional em data warehouses, transformações de dados com SQL e dbt, e a criação de visualizações de dados em uma ferramenta de Self-Service BI.
+Este projeto foi desenvolvido como parte do desafio Analista de Dados/Engenheiro de Analytics pela Indicium. O objetivo é avaliar competências práticas em Engenharia de Analytics, seguindo a metodologia do Modern Analytics Stack. Este projeto abrange a construção de uma plataforma de analytics moderna, modelagem dimensional em data warehouses, transformações de dados com SQL e dbt, e a criação de visualizações de dados em uma ferramenta de Self-Service BI.
 
 ## Contexto
 A empresa fictícia Northwind Traders, uma loja que gerencia pedidos, produtos, clientes, fornecedores, e outros aspectos de uma pequena empresa, contratou você para utilizar seus dados estrategicamente. A Northwind Traders possui cerca de 30 funcionários e um faturamento mensal de 1 milhão e meio de reais, com clientes e fornecedores distribuídos em diversos países. Para enfrentar desafios crescentes devido à expansão, a empresa busca integrar seus dados e utilizá-los de forma estratégica para se tornar uma empresa data driven.
