@@ -47,7 +47,7 @@ Perguntas de Negócio:
 Formato de Entrega:
 - Relatório: [Relatório de Análise de Indicadores da Northwind.pdf](https://github.com/italobatistos/Desafio-Analista-de-Dados-Engenheiro-de-Analytics/files/15378873/Relatorio.de.Analise.de.Indicadores.da.Northwind.pdf)
 
-- PowerBI: Arquivo do dashboard.
+- PowerBI: [northwind_bi.zip](https://github.com/italobatistos/Desafio-Analista-de-Dados-Engenheiro-de-Analytics/files/15378910/northwind_bi.zip)
 
 ## Ferramentas Utilizadas
 - DBT: Ferramenta de transformação de dados.
