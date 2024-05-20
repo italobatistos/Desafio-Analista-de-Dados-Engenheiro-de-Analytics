@@ -39,9 +39,10 @@ Tarefas:
 Ferramenta: PowerBI
 
 Perguntas de Negócio:
-- Quais os produtos com maior ticket médio por mês, e país?
+- Quais os produtos com maior ticket médio por mês, ano e país?
 - Quais os 5 melhores países em valor total negociado por produto, data de venda, funcionario?
 - Qual o número de pedidos, quantidade comprada, valor total negociado por mês e ano?
+
 Formato de Entrega:
 - Relatório: PDF
 - PowerBI: Arquivo do dashboard.
