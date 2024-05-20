@@ -33,7 +33,6 @@ Tarefas:
 - Documentação das tabelas e colunas nos marts.
 - Testes de sources.
 - Testes nas primary keys das tabelas de dimensão e fatos.
-- Testes de dados específicos.
 - Código armazenado em um repositório no GitHub.
 
 ### 4. Painéis de BI
