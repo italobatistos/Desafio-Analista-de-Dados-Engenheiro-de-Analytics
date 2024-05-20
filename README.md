@@ -44,7 +44,7 @@ Perguntas de Negócio:
 - Quais os 5 melhores países em valor total negociado por produto, data de venda, funcionario?
 - Qual o número de pedidos, quantidade comprada, valor total negociado por mês e ano?
 
-Formato de Entrega:
+Entregas:
 - Relatório: [Relatório de Análise de Indicadores da Northwind.pdf](https://github.com/italobatistos/Desafio-Analista-de-Dados-Engenheiro-de-Analytics/files/15378873/Relatorio.de.Analise.de.Indicadores.da.Northwind.pdf)
 
 - PowerBI: [northwind_bi.zip](https://github.com/italobatistos/Desafio-Analista-de-Dados-Engenheiro-de-Analytics/files/15378910/northwind_bi.zip)
