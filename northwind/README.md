@@ -15,7 +15,7 @@ A Northwind Traders utiliza um banco de dados transacional PostgreSQL, com dados
 ### 1. Diagrama Conceitual do Data Warehouse
 ![diagrama_northwind](https://github.com/italobatistos/Desafio-Analista-de-Dados-Engenheiro-de-Analytics/assets/135757227/141b1e23-8255-43ef-be97-9518bf2834f1)
 
-Descrição: Criação do modelo conceitual com tabelas de fatos e dimensões necessárias para responder às perguntas de negócio. O diagrama mostra as tabelas fonte utilizadas para criar cada dimensão e a tabela fato.
+Descrição: Criação do modelo conceitual com tabelas de fatos e dimensões necessárias para responder às perguntas de negócio.
 
 Ferramenta Utilizada: draw.io
 
