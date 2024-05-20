@@ -8,7 +8,8 @@ Este projeto foi desenvolvido como parte do desafio Analista de Dados/Engenheiro
 A empresa fictícia Northwind Traders, uma loja que gerencia pedidos, produtos, clientes, fornecedores, e outros aspectos de uma pequena empresa, contratou você para utilizar seus dados estrategicamente. A Northwind Traders possui cerca de 30 funcionários e um faturamento mensal de 1 milhão e meio de reais, com clientes e fornecedores distribuídos em diversos países. Para enfrentar desafios crescentes devido à expansão, a empresa busca integrar seus dados e utilizá-los de forma estratégica para se tornar uma empresa data driven.
 
 ## Descrição dos Dados
-A Northwind Traders utiliza um banco de dados transacional PostgreSQL, com dados distribuídos em 14 tabelas disponíveis no arquivo northwind.zip. Essas tabelas abrangem diferentes áreas, como pedidos, produtos, clientes, fornecedores, entre outros.
+A Northwind Traders utiliza um banco de dados transacional PostgreSQL, com dados distribuídos em 14 tabelas disponíveis no arquivo [northwind.zip](https://github.com/italobatistos/Desafio-Analista-de-Dados-Engenheiro-de-Analytics/files/15378896/northwind.zip)
+. Essas tabelas abrangem diferentes áreas, como pedidos, produtos, clientes, fornecedores, entre outros.
 
 ## Entrega
 
